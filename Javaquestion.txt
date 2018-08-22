@@ -1,0 +1,114 @@
+--------------------------------------------------------
+--  File created - Wednesday-August-22-2018   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table ADD_QUESTION
+--------------------------------------------------------
+
+  CREATE TABLE "ONLINETEST"."ADD_QUESTION" 
+   (	"SNO" NUMBER, 
+	"COURSE_CATEGORY" VARCHAR2(20 BYTE), 
+	"QUESTION" VARCHAR2(1000 BYTE), 
+	"OPTIONA" VARCHAR2(100 BYTE), 
+	"OPTIONB" VARCHAR2(100 BYTE), 
+	"OPTIONC" VARCHAR2(100 BYTE), 
+	"OPTIOND" VARCHAR2(100 BYTE), 
+	"CORRECT_ANSWER" VARCHAR2(100 BYTE), 
+	"DATE_TIME" VARCHAR2(40 BYTE), 
+	"TUTOR_NAME" VARCHAR2(30 BYTE)
+   ) PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into ONLINETEST.ADD_QUESTION
+SET DEFINE OFF;
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (1,'Java','Ques 1 :Which declaration of the main method below would allow a class to be started as a standalone program.','(A) public static int main(char args[])','(B) public static void main(String args[])','(C) public static void MAIN(String args[])','(D) public static void main(String args)','public static void main(String args[])',null,null);
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (2,'Java','Ques 2 : What is the meaning of the return data type void?','(A) An empty memory space is returned so that the developers can utilize it.','(B) void is not supported in Java','(C) void returns no data type.','(D) null','void returns no data type.',null,null);
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (3,'Java','Ques 3 : Which of these are legal identifiers.','(A) number_1','(B) number_a','(C) $1234','(D) All of the above.','All of the above.',null,null);
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (4,'Java','Ques 4 : Which of the following are Java keywords?','(A) throw','(B) void','(C) private','(D) All of the above.','All of the above.',null,null);
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (5,'Java','Ques 5 : A lower precision can be assigned to a higher precision value in Java. For example a byte type data can be assigned to int type.','(A) True','(B) False','(C)null','(D)null','True',null,null);
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (6,'Java','Ques 6 : Which of these are not legal identifiers.','(A) 1alpha','(B) xy+abc','(C) both A and B','(D) None of the above','both A and B',null,null);
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (7,'Java','Ques 7 : Which of the following are legal definitions of the main method that can be used to execute a class.','(A) public static int main(String args[])','(B) public void main(String args)','(C) public static void main(String args[])','(D) public static void main(string args[])','public static void main(String args[])',null,null);
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (8,'Java','Ques 8 : Which of the following statements about the Java language is true?','(A) Both procedural and OOP are supported in Java.','(B) Java supports only procedural approach towards programming','(C) Java supports only OOP approach.','(D) None of the above.','Both procedural and OOP are supported in Java.',null,null);
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (9,'Java','Ques 9 : Which of the following are keywords in Java.','(A) implement','(B) friend','(C) NULL','(D) synchronized','synchronized',null,null);
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (10,'Java','Ques 10 : Which of these are legal array declarations or definitions?','(A) int[] []x[];','(B) int x[5];','(C) int *x;','(D) None of above','int[] []x[];',null,null);
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (11,'Java','Ques 11 : What gets printed when the following code is compiled and run with the following command - java test 2 Select the one correct answer.
+
+public class test {
+   public static void main(String args[]) { 
+      Integer intObj=Integer.valueOf(args[args.length-1]);
+      int i = intObj.intValue();
+
+      if(args.length > 1) 
+         System.out.println(i);
+      if(args.length > 0)
+         System.out.println(i - 1);
+      else 
+         System.out.println(i - 2);
+   }
+}','(A) test','(B) test -1','(C) 0','(D) 1','Answer : 1','Tue Aug 21 16:19:26 IST 2018','Navya');
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (12,'Java','Ques 12 : Which of the following statements is false about objects?','(A) An instance of a class is an object','(B) Objects can access both static and instance data','(C) Objects do not permit encapsulation','(D) Object is the super class of all other classes','Answer : Objects do not permit encapsulation','21/08/2018 17:00:35','Tutor');
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (13,'Java','Ques 13 : Which of these are legal identifiers. Select the three correct answers.
+a.	number_1
+b.	number_a
+c.	$1234
+d.	-volatile','(A) a, b, c','(B) a, b','(C) a','(D) b','Answer : a, b, c','21/08/2018 17:00:39','Tutor');
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (14,'Java','Ques 14 : The class Hashtable is used to implement which collection interface. Select the one correct answer.','(A) List','(B) Set','(C) Map','(D) SortedSet','Answer : Map','22/08/2018 17:38:36','Tutor');
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (15,'Java','Ques 15 : TreeMap class is used to implement which collection interface. Select the one correct answer.','(A) Set','(B) SortedSet','(C) Tree','(D) SortedMap','Answer : SortedMap','22/08/2018 17:40:33','Tutor');
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (16,'Java','Ques 16 : Given a one dimensional array arr, what is the correct way of getting the number of elements in arr. Select the one correct answer.','(A) arr.length','(B) arr.length - 1','(C) arr.size','(D) arr.length()','Answer : arr.length','22/08/2018 17:57:27','Tutor');
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (17,'Java','Ques 17 : What happens when the following code is compiled and run. Select the one correct answer.
+
+for(int i = 1; i < 3; i++)
+  for(int j = 3; j > i; j--)
+     assert i!=j {System.out.println(i); }','(A) The class compiles and runs, but does not print anything.','(B) The number 1 gets printed with AssertionError','(C) The program generates a compilation error.','(D) The number 2 gets printed with AssertionError','Answer : The program generates a compilation error.','22/08/2018 18:01:41','Tutor');
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (18,'Java','Ques 18 : What gets displayed on the screen when the following program is compiled and run. Select the one correct answer. 
+	
+	protected class example {
+	public static void main(String args[]) {
+		String test = "abc";
+		test = test + test;
+		System.out.println(test);
+	}
+	}','(A) The class does not compile because the top level class cannot be protected.','(B) The program prints "abc"','(C) The program prints "abcabc"','(D) The program does not compile because statement "test = test + test" is illegal.','Answer : The class does not compile because the top level class cannot be protected.','22/08/2018 18:03:36','Tutor');
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (20,'Java','Ques 20 : Which of the following is a Java keyword.Select the four correct answers.
+a.  extern
+b.  synchronized
+c.  volatile
+d.  friend
+e.  friendly
+f.  transient
+g.  this
+h.  then','(A) b, c','(B) b, c, f, g','(C) e, g, h','(D) all of above.','Answer : b, c, f, g','22/08/2018 18:14:32','Tutor');
+Insert into ONLINETEST.ADD_QUESTION (SNO,COURSE_CATEGORY,QUESTION,OPTIONA,OPTIONB,OPTIONC,OPTIOND,CORRECT_ANSWER,DATE_TIME,TUTOR_NAME) values (19,'Java','Ques 19 : Which methods can access to private attributes of a class?','(A) Only Static methods of the same class','(B) Only instances of the same class','(C) Only methods those defined in the same class','(D) Only classes available in the same package.','Answer : Only methods those defined in the same class','22/08/2018 18:16:34','Tutor');
+--------------------------------------------------------
+--  DDL for Index ADD_QUESTION_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "ONLINETEST"."ADD_QUESTION_PK" ON "ONLINETEST"."ADD_QUESTION" ("SNO") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table ADD_QUESTION
+--------------------------------------------------------
+
+  ALTER TABLE "ONLINETEST"."ADD_QUESTION" ADD CONSTRAINT "ADD_QUESTION_PK" PRIMARY KEY ("SNO")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;
+ 
+  ALTER TABLE "ONLINETEST"."ADD_QUESTION" MODIFY ("COURSE_CATEGORY" NOT NULL ENABLE);
+ 
+  ALTER TABLE "ONLINETEST"."ADD_QUESTION" MODIFY ("QUESTION" NOT NULL ENABLE);
+ 
+  ALTER TABLE "ONLINETEST"."ADD_QUESTION" MODIFY ("OPTIONA" NOT NULL ENABLE);
+ 
+  ALTER TABLE "ONLINETEST"."ADD_QUESTION" MODIFY ("OPTIONB" NOT NULL ENABLE);
+ 
+  ALTER TABLE "ONLINETEST"."ADD_QUESTION" MODIFY ("OPTIONC" NOT NULL ENABLE);
+ 
+  ALTER TABLE "ONLINETEST"."ADD_QUESTION" MODIFY ("OPTIOND" NOT NULL ENABLE);
+ 
+  ALTER TABLE "ONLINETEST"."ADD_QUESTION" MODIFY ("CORRECT_ANSWER" NOT NULL ENABLE);
